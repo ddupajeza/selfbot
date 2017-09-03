@@ -16,3 +16,6 @@ class my:
             coin = 'Tail'
         emb = discord.Embed(color=discord.Color.gold(), title="You Flipped A...", description = coin)
         await self.bot.say('', embed = emb)
+
+ def setup(bot):
+    bot.add_cog(Utility(bot))
