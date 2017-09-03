@@ -7,4 +7,6 @@ class my:
         self.sessions = set()
         
   @commands.command()
-  print(5+3)
+  async def math(self):
+    "Test"
+    print(5+3)
