@@ -61,8 +61,8 @@ _extensions = [
     'cogs.misc',
     'cogs.info',
     'cogs.utils',
-    'cogs.mod'
-
+    'cogs.mod',
+    'cogs.my'
     ]
 
 @bot.event
