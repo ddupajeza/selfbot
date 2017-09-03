@@ -18,4 +18,4 @@ class my:
         await self.bot.say('', embed = emb)
 
  def setup(bot):
-    bot.add_cog(Utility(bot))
+    bot.add_cog(my(bot))
