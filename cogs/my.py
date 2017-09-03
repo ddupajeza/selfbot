@@ -9,4 +9,4 @@ class my:
   @commands.command()
   async def math(self):
     "Test"
-    print(5+3)
+     5+3
