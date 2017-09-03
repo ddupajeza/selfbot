@@ -6,5 +6,5 @@ class my:
         self.bot = bot
         self.sessions = set()
         
-  @command.command()
+  @commands.command()
   print(5+3)
